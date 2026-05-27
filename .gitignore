@@ -1,0 +1,40 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Variables de entorno (NUNCA commitear)
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Alembic
+alembic/versions/*.py
+!alembic/versions/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
